@@ -38,7 +38,10 @@
               <a href="./index.html#about" class="header__link">O mnie</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">Projekty</a>
+              <a href="./index.html#projects-commercial" class="header__link">Projekty</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects-prv" class="header__link">Projekty</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#certificates" class="header__link">Certyfikaty</a>
@@ -74,13 +77,19 @@
               <a href="./index.html#about">O mnie</a>
             </li>
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects">Projekty</a>
+              <a href="./index.html#projects-commercial">Projekty</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects-prv">Projekty</a>
             </li>
             <li class="header__sm-menu-link">
               <a href="./index.html#certificates">Certyfikaty</a>
             </li>
             <li class="header__sm-menu-link">
               <a href="./index.html#contact">Kontakt</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="https://tomaszbazan.pl/">Blog</a>
             </li>
           </ul>
         </div>
@@ -96,7 +105,7 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./index.html#projects" class="btn btn--bg">Projekty</a>
+          <a href="./index.html#projects-commercial" class="btn btn--bg">Projekty</a>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -173,10 +182,10 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="projects sec-pad">
+    <section id="projects-commercial" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__main">Projekty</span>
           <span class="heading-sec__sub">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora explicabo quae quod deserunt eius sapiente
@@ -197,16 +206,10 @@
               <h3 class="projects__row-content-title">BazApp</h3>
               <p class="projects__row-content-desc">
                 Mobilna aplikacja służąca do instalacji stacji ładowania aut elektrycznych. Wykorzystywana w Holandii.</br>
-                Wykorzystane technologie: <b>Flutter</b>, <b>REST</b></br>
+                Wykorzystane technologie: <strong>Flutter</strong></br>
                 Pracodawca: Vattenfall</br>
                 Kiedy: 08.2021 - 11.2021
               </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
             </div>
           </div>
           <div class="projects__row">
@@ -219,19 +222,13 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Remote-commands</h3>
+              <h3 class="projects__row-content-title">remote-commands</h3>
               <p class="projects__row-content-desc">
                 Backend aplikacji pozwalającej operatorom na wysyłanie komend do stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
-                Wykorzystane technologie: <b>Kotlin</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>Docker</b>, <b>Kubernetes</b>, <b>REST</b></br>
+                Wykorzystane technologie: <strong>Kotlin, Spring, Postgres, Kafka, Docker, Kubernetes</strong></br>
                 Pracodawca: Vattenfall</br>
                 Kiedy: 07.2019 - 05.2021
               </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
             </div>
           </div>
           <div class="projects__row">
@@ -247,15 +244,10 @@
               <h3 class="projects__row-content-title">station-configuration</h3>
               <p class="projects__row-content-desc">
                 Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
-                Wykorzystane technologie: <b>Java</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>Docker</b>, <b>Kubernetes</b>, <b>REST</b></br>
+                Wykorzystane technologie: <strong>Java, Spring, Postgres, Kafka, Docker, Kubernetes</strong></br>
                 Pracodawca: Vattenfall</br>
                 Kiedy: 11.2019 - in progress
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -271,15 +263,10 @@
               <h3 class="projects__row-content-title">station-messages</h3>
               <p class="projects__row-content-desc">
                 Backend przyjmujacy informacje od stacji dotyczące statusu ładowania. Serwis przyjmuje ok 1000 requestów/minutę.</br>
-                Wykorzystane technologie: <b>Java</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>Docker</b>, <b>Kubernetes</b>, <b>REST</b></br>
+                Wykorzystane technologie: <strong>Java, Spring, Postgres, Kafka, Docker, Kubernetes</strong></br>
                 Pracodawca: Vattenfall</br>
                 Kiedy: 06.2021 - 02.2022
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -296,15 +283,10 @@
               <p class="projects__row-content-desc">
                 Projekt dotyczący przeniesienia całej platformy (2 portale, serwis do autoryzacji oraz monolityczny backend) z fizycznych serwerów z serwerem Weblogic oraz bazy danych Oracle
                 do Kubernetesa stojącego na Azure z bazą Postgres. Skomplikowaniu dodawał fakt, że system był codziennie używany przez setki klientów oraz 15 tysięcy stacji ładowania aut elektrycznych.</br>
-                Wykorzystane technologie: <b>Docker</b>, <b>Kubernetes</b>, <b>Azure</b>, <b>Postges</b>, <b>Oracle</b>, <b>Weblogic</b>, <b>Tomcat</b>, <b>Java</b>, <b>Spring</b></br>
+                Wykorzystane technologie: <strong>Docker, Kubernetes, Azure, Postges, Oracle, Weblogic, Tomcat, Java, Spring</strong></br>
                 Pracodawca: Vattenfall</br>
                 Kiedy: 07.2019 - 04.2021
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -317,40 +299,15 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">TODO</h3>
+              <h3 class="projects__row-content-title">eMobility old platform</h3>
               <p class="projects__row-content-desc">
-                Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
-                Wykorzystane technologie: <b>Java</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>REST</b></br>
+                Monolityczna aplikacja oraz 2 portale. 
+                Pierwszy dla klientów pozwalający podejrzeć karty, stacje oraz sesje ładowania. 
+                Drugi do obsługi stacji ładowania auto elektrycznych, dostępny tylko dla pracowników wewnętrznych.
+                Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
+                Wykorzystane technologie: <strong>Java, Spring, Oracle, WebLogic, Kafka</strong></br>
                 Pracodawca Vattenfall.
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">station-configuration</h3>
-              <p class="projects__row-content-desc">
-                Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
-                Wykorzystane technologie: <b>Java</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>REST</b></br>
-                Pracodawca Vattenfall.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -366,14 +323,47 @@
               <h3 class="projects__row-content-title">station-configuration</h3>
               <p class="projects__row-content-desc">
                 Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
-                Wykorzystane technologie: <b>Java</b>, <b>Spring</b>, <b>Postgres</b>, <b>Kafka</b>, <b>REST</b></br>
+                Wykorzystane technologie: <strong>Java, Spring, Postgres, Kafka</strong></br>
                 Pracodawca Vattenfall.
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <!-- https://placeit.net/c/mockups/?sortby=free&search=monitor -->
+            <!-- https://www.mockuper.net/mockups/laptop -->
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/SyriuszSTD2.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Syriusz/Viator</h3>
+              <p class="projects__row-content-desc">
+                Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
+                Wykorzystane technologie: <strong>Java, Spring, Postgres, Kafka</strong></br>
+                Pracodawca Vattenfall.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Platforma Usług</h3>
+              <p class="projects__row-content-desc">
+                Backend aplikacji pozwalającej operatorom na konfigurację stacji ładowania aut elektrycznych. Wykorzystywana w Holandii, Szwecji i Niemczech.</br>
+                Wykorzystane technologie: <strong>Java, Spring, Postgres, Kafka</strong></br>
+                Pracodawca Vattenfall.
+              </p>
             </div>
           </div>
         </div>
@@ -382,10 +372,9 @@
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__main heading-sec__main--lt">Kontakt</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Jeżeli zainteresowało Cię to co zrobiłem lub masz jakieś pytania. Skorzystaj z formularza poniżej. 
           </span>
         </h2>
         <div class="contact__form-container">
